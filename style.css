@@ -123,7 +123,7 @@ button:hover {
 
 @media only screen and (max-device-width: 490px) {
 
-    input{
+    input, textarea {
         font-size: 14px;
     }
 
