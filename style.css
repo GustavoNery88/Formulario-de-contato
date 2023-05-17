@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    width: 75%;
+    background-color: white;
+}
+
+.conteiner-informacoes, .container-formulario {
+    width: 50%;
+    height: 38rem;
+    padding: 60px;
+}
+
+.conteiner-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteiner-informacoes p {
+    margin-top: 20px;
+    color: rgb(81, 81, 81);
+    font-size: 18px;
+}
+
+
+.conteiner-informacoes-contatos {
+    display: flex;
+    gap: 20px;
+}
+
+svg {
+    color: rgb(254, 108, 4);
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container-formulario-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-formulario-form div {
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+input {
+    padding: 15px 20px;
+}
+
+textarea {
+    padding: 10px 20px;
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+    outline: none;
+}
+
+
+button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px 100px;
+    background-color: #2b5876;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e758e;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .container-formulario {
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button{
+        padding: 10px;
+    }
+
+    .conteiner-informacoes, .container-formulario {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-device-width: 490px) {
+
+    input{
+        font-size: 14px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 10px;
+    }
+
+    .conteiner-informacoes-contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteiner-informacoes h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .conteiner-informacoes p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+}
