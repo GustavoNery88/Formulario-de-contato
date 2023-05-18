@@ -129,7 +129,6 @@ button:hover {
 
     ::-webkit-input-placeholder {
         font-size: 12px;
-
     }
 
     .conteiner-informacoes-contatos {
@@ -137,7 +136,12 @@ button:hover {
         align-items: center;
     }
 
-    .conteiner-informacoes h3, p {
+    .conteiner-informacoes h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .conteiner-informacoes p {
         font-size: 14px;
         text-align: center;
     }
