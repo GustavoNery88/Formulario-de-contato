@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 
 .container {
@@ -91,7 +91,7 @@ button {
     width: 100%;
     margin-top: 30px;
     padding: 12px 100px;
-    background-color: #2b5876;
+    background-color: #182848;
     border: none;
     color: white;
     font-size: 17px;
@@ -99,7 +99,7 @@ button {
 }
 
 button:hover {
-    background-color: #4e758e;
+    background-color: #2a3757;
 }
 
 @media only screen and (max-device-width: 900px) {
